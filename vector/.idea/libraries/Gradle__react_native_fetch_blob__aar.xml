@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: react-native-fetch-blob:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-fetch-blob.aar/4ca7121aa899b9c36a596e15808f80e9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-fetch-blob.aar/4ca7121aa899b9c36a596e15808f80e9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

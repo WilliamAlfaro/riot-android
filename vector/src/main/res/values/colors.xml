@@ -28,7 +28,7 @@
     <color name="riot_primary_background_color_black">#000000</color>
     <color name="riot_primary_background_color_status">#eef2f5</color>
 
-    <color name="primary_color_light">#76CFA6</color>
+    <color name="primary_color_light">#76cfa6</color>
     <color name="primary_color_dark">#353535</color>
 
     <color name="primary_color_status">#FF586C7B</color>
@@ -70,5 +70,8 @@
     <!-- Notification view colors -->
     <color name="soft_resource_limit_exceeded">#2f9edb</color>
     <color name="hard_resource_limit_exceeded">@color/vector_fuchsia_color</color>
+    <color name="fairwallet">#5b5875</color>
+    <color name="fairwallt">#2e2d3d</color>
+    <color name="fair">#2e2d3d</color>
 
 </resources>

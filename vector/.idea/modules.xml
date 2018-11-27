@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../matrix-android-sdk/matrix-sdk/matrix-sdk.iml" filepath="$PROJECT_DIR$/../../matrix-android-sdk/matrix-sdk/matrix-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../riot-android.iml" filepath="$PROJECT_DIR$/../riot-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vector.iml" filepath="$PROJECT_DIR$/vector.iml" />
+    </modules>
+  </component>
+</project>

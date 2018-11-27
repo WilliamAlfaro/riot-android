@@ -1,7 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/fair">
 
     <RelativeLayout
         android:id="@+id/login_actions_bar"
@@ -9,7 +10,8 @@
         android:layout_height="56dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:background="@color/fair">
 
         <View
             android:layout_width="match_parent"
@@ -111,11 +113,13 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/login_actions_bar">
+        android:layout_above="@id/login_actions_bar"
+        android:background="@color/fair">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/fair"
             android:orientation="vertical">
 
             <RelativeLayout
@@ -125,9 +129,10 @@
 
                 <ImageView
                     android:id="@+id/login_large_logo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="100dp"
+                    android:layout_width="324dp"
+                    android:layout_height="64dp"
                     android:layout_centerHorizontal="true"
+                    android:contentDescription="TODO"
                     android:src="@drawable/logo_login" />
             </RelativeLayout>
 
@@ -140,6 +145,7 @@
                 android:layout_marginTop="19dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
+                android:background="@color/fair"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -216,12 +222,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/auth_reset_password_message" />
+                        android:text="@string/auth_reset_password_message"
+                        android:textColor="@color/cardview_light_background" />
 
                     <EditText
                         android:id="@+id/forget_email_address"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:backgroundTint="@color/primary_hint_text_color_light"
                         android:hint="@string/auth_email_placeholder"
                         android:inputType="textEmailAddress"
                         android:maxLines="1" />
@@ -231,6 +239,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
+                        android:backgroundTint="@color/primary_hint_text_color_light"
                         android:ems="10"
                         android:hint="@string/auth_new_password_placeholder"
                         android:inputType="textPassword"
@@ -241,6 +250,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
+                        android:backgroundTint="@color/primary_hint_text_color_light"
                         android:ems="10"
                         android:hint="@string/auth_repeat_new_password_placeholder"
                         android:inputType="textPassword"
@@ -259,6 +269,7 @@
                         android:id="@+id/creation_your_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:backgroundTint="@color/riot_primary_background_color_light"
                         android:hint="@string/auth_user_name_placeholder"
                         android:inputType="text"
                         android:maxLines="1" />
@@ -267,6 +278,7 @@
                         android:id="@+id/creation_password1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:backgroundTint="@color/primary_hint_text_color_light"
                         android:ems="10"
                         android:hint="@string/auth_password_placeholder"
                         android:inputType="textPassword"
@@ -276,6 +288,7 @@
                         android:id="@+id/creation_password2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:backgroundTint="@color/primary_hint_text_color_light"
                         android:ems="10"
                         android:hint="@string/auth_repeat_password_placeholder"
                         android:inputType="textPassword"
@@ -287,6 +300,7 @@
                     android:id="@+id/three_pid_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/fair"
                     android:orientation="vertical">
 
                     <TextView
@@ -295,6 +309,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
                         android:text="@string/auth_add_email_phone_message"
+                        android:textColor="@color/cardview_light_background"
                         android:textSize="16sp" />
 
                     <EditText
@@ -302,6 +317,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:backgroundTint="@color/primary_hint_text_color_light"
                         android:hint="@string/auth_email_placeholder"
                         android:inputType="textEmailAddress"
                         android:maxLines="1" />
@@ -330,6 +346,7 @@
                             android:id="@+id/registration_phone_number_value"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/primary_hint_text_color_light"
                             android:hint="@string/auth_phone_number_placeholder"
                             android:inputType="phone"
                             android:maxLines="1"
@@ -361,7 +378,8 @@
                             android:layout_toEndOf="@+id/display_server_url_expand_checkbox"
                             android:layout_toRightOf="@+id/display_server_url_expand_checkbox"
                             android:gravity="center_vertical"
-                            android:text="@string/auth_use_server_options" />
+                            android:text="@string/auth_use_server_options"
+                            android:textColor="@color/cardview_light_background" />
 
                     </RelativeLayout>
 
@@ -377,12 +395,14 @@
                             android:layout_marginStart="5dp"
                             android:layout_marginLeft="5dp"
                             android:layout_marginTop="10dp"
-                            android:text="@string/auth_home_server" />
+                            android:text="@string/auth_home_server"
+                            android:textColor="@color/cardview_light_background" />
 
                         <EditText
                             android:id="@+id/login_matrix_server_url"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/primary_hint_text_color_light"
                             android:hint="@string/hs_url"
                             android:inputType="text"
                             android:maxLines="1" />
@@ -393,12 +413,14 @@
                             android:layout_marginStart="5dp"
                             android:layout_marginLeft="5dp"
                             android:layout_marginTop="10dp"
-                            android:text="@string/auth_identity_server" />
+                            android:text="@string/auth_identity_server"
+                            android:textColor="@color/cardview_light_background" />
 
                         <EditText
                             android:id="@+id/login_identity_url"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/primary_hint_text_color_light"
                             android:hint="@string/identity_url"
                             android:inputType="text"
                             android:maxLines="1" />
@@ -413,7 +435,7 @@
                     android:paddingTop="5dp"
                     android:paddingBottom="10dp"
                     android:text="@string/auth_forgot_password"
-                    android:textColor="@color/vector_green_color"
+                    android:textColor="@color/primary_color_light"
                     android:textSize="14sp" />
             </LinearLayout>
 

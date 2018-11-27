@@ -16,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "im.vector"
+        applicationId "im.v2r"
         minSdkVersion 16
         targetSdkVersion 26
         // use the version code
@@ -216,10 +216,10 @@ dependencies {
     /************* Matrix SDK management **************/
     // update settings.gradle
     // use the matrix SDK as external lib
-    implementation(name: 'matrix-sdk', ext: 'aar')
+    //implementation(name: 'matrix-sdk', ext: 'aar')
     // use the matrix SDK as a sub project
     // you have to uncomment some lines in settings.gradle
-    //implementation project(':matrix-sdk')
+    implementation project(':matrix-sdk')
     implementation(name: 'olm-sdk', ext: 'aar')
 
     /************* jitsi **************/

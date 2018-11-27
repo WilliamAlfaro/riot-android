@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: react-native-keep-awake:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-keep-awake.aar/63010552601123078a5a89ef87f680e5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-keep-awake.aar/63010552601123078a5a89ef87f680e5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

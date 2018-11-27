@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: olm-sdk:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/olm-sdk.aar/1797ce4368843bdfd96b66ea2da8ddba/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/olm-sdk.aar/1797ce4368843bdfd96b66ea2da8ddba/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

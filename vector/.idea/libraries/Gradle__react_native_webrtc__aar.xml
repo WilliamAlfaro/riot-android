@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: react-native-webrtc:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-webrtc.aar/833c0b0c491eb2fb75e0b2cb61570ec6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-webrtc.aar/833c0b0c491eb2fb75e0b2cb61570ec6/jars/libs/libwebrtc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-webrtc.aar/833c0b0c491eb2fb75e0b2cb61570ec6/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/react-native-webrtc.aar/833c0b0c491eb2fb75e0b2cb61570ec6/jars/libs/libjingle_peerconnection.so.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
