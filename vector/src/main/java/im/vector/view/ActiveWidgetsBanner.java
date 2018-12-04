@@ -120,7 +120,11 @@ public class ActiveWidgetsBanner extends RelativeLayout {
             public void onClick(View v) {
                 if (null != mUpdateListener) {
                     try {
+
+                        Log.d(LOG_TAG, "onCreate() THIS IS A TEST");
+
                         mUpdateListener.onCloseWidgetClick(mActiveWidgets.get(0));
+
                     } catch (Exception e) {
                         Log.e(LOG_TAG, "## initView() : onCloseWidgetClick failed " + e.getMessage(), e);
                     }

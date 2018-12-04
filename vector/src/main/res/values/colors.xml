@@ -2,8 +2,14 @@
 <resources>
 
     <!-- main app colors -->
+
+    <!--
     <color name="vector_green_color_dark">#FF5EA584</color>
     <color name="vector_green_color">#FF76CFA6</color>
+    -->
+
+    <color name="vector_green_color_dark">#FF5EA584</color>
+    <color name="vector_green_color">#5b5875</color>
     <color name="vector_fuchsia_color">#ff0064</color>
     <color name="vector_silver_color">#FFC7C7C7</color>
     <color name="vector_dark_grey_color">#FF999999</color>
@@ -25,7 +31,7 @@
     <!-- dedicated drawables are created for each theme -->
     <color name="riot_primary_background_color_light">@android:color/white</color>
     <color name="riot_primary_background_color_dark">#2d2d2d</color>
-    <color name="riot_primary_background_color_black">#000000</color>
+    <color name="riot_primary_background_color_black">#2e2d3d</color>
     <color name="riot_primary_background_color_status">#eef2f5</color>
 
     <color name="primary_color_light">#76cfa6</color>
@@ -73,5 +79,6 @@
     <color name="fairwallet">#5b5875</color>
     <color name="fairwallt">#2e2d3d</color>
     <color name="fair">#2e2d3d</color>
+    <color name="whiteTextView">#ffffff</color>
 
 </resources>
