@@ -135,6 +135,7 @@
     <string name="groups_invite_header">Invite</string>
     <string name="groups_header">Communities</string>
     <string name="no_group_placeholder">No groups</string>
+    <string name="test">Aqui ira el widget</string>
 
     <string name="send_bug_report_include_logs">Send logs</string>
     <string name="send_bug_report_include_crash_logs">Send crash logs</string>
@@ -1091,5 +1092,8 @@
     <string name="generic_label_and_value">%1$s: %2$s</string>
     <string name="plus_x">+%d</string>
     <string name="x_plus">%d+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
